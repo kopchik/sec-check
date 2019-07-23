@@ -1,0 +1,10 @@
+# normal
+black==19.3b0
+# fresh vulnerable package, keep updated :)
+Flask==0.12.4
+# unpinned
+django
+# malicious
+smplejson
+# some old vulnerable package
+SQLAlchemy 1.2.18 # CVE-2019-7164
