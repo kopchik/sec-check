@@ -6,10 +6,11 @@ A sample of vulnerable code to evaluate linters.
 
 1. SQL injection
 1. Unused imports
-1. hardcoded tokens
+1. hardcoded passwords and tokens
 1. Disabled SSL cert check
 1. Use of asserts
 1. Unused variables
+1. Unencrypted connections (HTTP instead of HTTPS)
 
 ## Issues with dependencies
 

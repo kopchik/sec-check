@@ -24,5 +24,18 @@ def insecure_download():
     return requests.get("https://google.com", verify=False)
 
 
+def some_hardcoded_password():
+    import requests
+
+    password = "1234"
+    requests.post("https://example.com", data=password)
+
+
+def unencrypted_connection():
+    import requests
+
+    requests.get("http://example.com")
+
+
 def unused_variables():
     x = 1
